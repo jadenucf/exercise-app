@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/exercise-app%3E/static/css/main.805d251c.css",
-    "main.js": "/exercise-app%3E/static/js/main.0e73d5f6.js",
-    "static/js/787.4ca390c8.chunk.js": "/exercise-app%3E/static/js/787.4ca390c8.chunk.js",
-    "index.html": "/exercise-app%3E/index.html",
-    "main.805d251c.css.map": "/exercise-app%3E/static/css/main.805d251c.css.map",
-    "main.0e73d5f6.js.map": "/exercise-app%3E/static/js/main.0e73d5f6.js.map",
-    "787.4ca390c8.chunk.js.map": "/exercise-app%3E/static/js/787.4ca390c8.chunk.js.map"
+    "main.css": "/exercise-app/static/css/main.805d251c.css",
+    "main.js": "/exercise-app/static/js/main.fdd44b6f.js",
+    "static/js/787.4ca390c8.chunk.js": "/exercise-app/static/js/787.4ca390c8.chunk.js",
+    "index.html": "/exercise-app/index.html",
+    "main.805d251c.css.map": "/exercise-app/static/css/main.805d251c.css.map",
+    "main.fdd44b6f.js.map": "/exercise-app/static/js/main.fdd44b6f.js.map",
+    "787.4ca390c8.chunk.js.map": "/exercise-app/static/js/787.4ca390c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.805d251c.css",
-    "static/js/main.0e73d5f6.js"
+    "static/js/main.fdd44b6f.js"
   ]
 }
