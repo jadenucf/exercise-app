@@ -1,0 +1,20 @@
+[
+  {
+    "alt":"running",
+    "src":"https://images.pexels.com/photos/7869515/pexels-photo-7869515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name":"Running",
+    "type": "running"
+  },
+  {
+    "alt":"stretches",
+    "src":"https://images.pexels.com/photos/4473622/pexels-photo-4473622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name":"Knees n' Toes",
+    "type": "repetition"
+  },
+  {
+    "alt":"bench press",
+    "src":"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name":"Bench Press",
+    "type": "repetition"
+  }
+]

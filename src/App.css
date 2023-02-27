@@ -1,0 +1,155 @@
+
+/* NAVIGATION */
+
+.navigation__wrapper{
+  /* position: fixed; */
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.navigation{
+  box-sizing: border-box;
+  background: #303030;
+  border: 0 solid #dfdfdf;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  padding: .25rem;
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+
+  width: fit-content;
+}
+
+.navigation__content{
+  display: flex;
+  height: 2.25rem;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-start;
+  padding-inline: 2em;
+}
+
+.navigation__item{
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.navigation__icon{
+  color: #ffffff;
+  width: 20px;
+}
+
+/* HOME */
+
+.home__content{
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-inline: 2rem;
+
+}
+
+
+.home__heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home__title{
+  padding-right: 24px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -.5px;
+  max-width: 450px;
+  margin-bottom: 2rem;
+}
+.home__desc{
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 450px;
+  color: #959595;
+}
+
+/* EXERCISES */
+
+.exercise__content{
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-inline: 2rem;
+}
+
+
+.exercise__heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.exercise__title{
+  padding-right: 24px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -.5px;
+  max-width: 450px;
+  margin-bottom: 2rem;
+}
+.exercise__desc{
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 450px;
+  color: #959595;
+}
+
+.exercise__grid{
+  margin-top: 3rem;
+  display: flex;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+.exercise__card{
+  padding-right: .25rem;
+  flex: 1;
+}
+
+.exercise__media{
+  position: relative;
+  isolation: isolate;
+  height: auto;
+  width: 100%;
+}
+.exercise__media__image{
+  position: relative;
+  isolation: isolate;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.exercise__card__desc{
+  padding-top: .8rem;
+  font-size: 1rem;
+  color: #959595;
+
+}
+
+@media (max-width: 725px) {
+  .exercise__grid{
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
